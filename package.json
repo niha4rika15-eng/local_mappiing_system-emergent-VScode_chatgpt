@@ -1,0 +1,12 @@
+{
+  "name": "pcns-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "http-server public -p 3000 -a 0.0.0.0 -c-1 --cors -s",
+    "test": "node --test ../tests/*.test.cjs"
+  },
+  "dependencies": {
+    "http-server": "14.1.1"
+  }
+}
